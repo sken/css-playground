@@ -1,0 +1,22 @@
+{
+  "name": "css-playground",
+  "version": "1.0.0",
+  "description": "css playground to try out things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sken/css-playground.git"
+  },
+  "author": "Stefan Kendlbacher <skendlbacher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sken/css-playground/issues"
+  },
+  "homepage": "https://github.com/sken/css-playground#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}

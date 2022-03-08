@@ -1,0 +1,43 @@
+<style>
+    body {
+        margin: 0;
+        font-family: Arial,sans-serif;
+    }
+
+    body > div {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    div > div {
+        flex: 0 1 33.33%;
+        /* short hand for */
+        /*
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 33.33%;
+         */
+    }
+
+    /* only styling */
+    div > div {
+        box-sizing: border-box; /* we need this - otherwise next values will break flex @see https://developer.mozilla.org/de/docs/Web/CSS/box-sizing*/
+        border: 1px solid #666;
+        padding: 10px;
+        background: #f7f7f7;
+    }
+
+</style>
+<div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+    <div>1</div>
+    <div>2</div>
+</div>
